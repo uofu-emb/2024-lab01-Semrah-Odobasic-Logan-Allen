@@ -25,6 +25,6 @@ hello.txt:
 	echo "hello world!" > hello.txt
 
 clean:
-	rm -f *.i *.s *.o *.elf *.img
+	rm -f *.i *.s *.o *.elf *.img hello.txt
 
 .PHONY: clean all
